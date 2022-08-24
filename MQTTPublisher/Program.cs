@@ -12,6 +12,7 @@ namespace MQTTPublisher
     {
         static void Main(string[] args)
         {
+            // test tools : mqtt lens
             MqttClient mqttClient = new MqttClient("broker.hivemq.com");
             mqttClient.MqttMsgPublishReceived += client_recievedMessage;
 
